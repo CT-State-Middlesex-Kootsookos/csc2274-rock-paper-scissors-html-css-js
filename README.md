@@ -1,1 +1,3 @@
-# csc2254-rock-paper-scissors-html-css-js
+# CSC2274 Client-side Web Development Rock-Paper-Scissors game
+
+
