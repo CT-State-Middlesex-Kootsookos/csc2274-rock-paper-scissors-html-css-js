@@ -28,14 +28,14 @@ test('Has nav tag', () => {
 test('Has main tag', () => {
   const filename = 'index.html'; // make sure the HTML file is named index.html
   const fileContent = fs.readFileSync(filename, 'utf8');
-  expect(fileContent).toMatch(/<main>/);
+  expect(fileContent).toMatch(/<main/);
   expect(fileContent).toMatch(/<\/main>/);
 });
 
 test('Has section tag', () => {
   const filename = 'index.html'; // make sure the HTML file is named index.html
   const fileContent = fs.readFileSync(filename, 'utf8');
-  expect(fileContent).toMatch(/<section>/);
+  expect(fileContent).toMatch(/<section/);
   expect(fileContent).toMatch(/<\/section>/);
 });
 
